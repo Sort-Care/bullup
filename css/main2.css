@@ -157,6 +157,14 @@ body {
 	overflow: visible !important;
 	margin-top: 160px;
 	background: #000;
+
+	-webkit-transition: box-shadow 1s;
+}
+
+.down-section:hover {
+	-webkit-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
+	-moz-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
+	box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 }
 
 .download-logo {
