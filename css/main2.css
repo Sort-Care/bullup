@@ -110,6 +110,14 @@ body {
 	
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	-ms-background-clip: text;
+	-ms-text-fill-color: transparent;
+
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+
+	
 }
 
 @media (max-width: 840px) {
@@ -159,11 +167,14 @@ body {
 	background: #000;
 
 	-webkit-transition: box-shadow 1s;
+	-ms-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
 }
 
 .down-section:hover {
 	-webkit-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 	-moz-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
+	-ms-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 	box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 }
 
@@ -185,10 +196,20 @@ body {
 .download-text-title {
 	margin: 0 auto;
 	background: linear-gradient(#ae9967, #6d4e1f);
+	font-family: arial;
+	font-size: 32px;
 
 	-webkit-user-select: none;
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+	-ms-user-select: none;
+	-ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+
+	-moz-user-select: none;
+	-moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 .download-text--subtitle {
@@ -353,11 +374,14 @@ body {
 	width: 100%;
 
 	-webkit-transition: box-shadow 1s;
+	-ms-transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
 }
 
 .info-img:hover {
 	-webkit-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 	-moz-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
+	-ms-box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 	box-shadow: 10px 10px 44px 8px rgba(147,116,61,1);
 }
 
